@@ -1,14 +1,12 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import Homepage from "./pages/Homepage";
 
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <HeroSection />
+      <Homepage />
     </>
   );
 }
