@@ -8,7 +8,7 @@ const Awards = () => {
         Awards And Recognition
       </p>
       <div className=" flex flex-col items-center">
-        <img src={AWARD} className="sm:w-140 lg:w-150" />
+        <img src={AWARD} className="sm:w-140 lg:w-155" />
         <div className="w-80 sm:w-130 lg:w-150 h-7 flex items-center justify-center sm:h-11.5  rounded-full -mt-3 sm:-mt-5 border-awards border-1 bg-awards/8">
           <p className="text-awards text-md py-1">Marketing Edge Award 2024</p>
         </div>
