@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Header from "./Header";
-import { CAROUSEL_IMAGES } from "../constants";
+import Header from "../Header";
+import { CAROUSEL_IMAGES } from "../../constants";
 
 const HeroSection = () => {
   const [currentImage, setCurrentImage] = useState(0);

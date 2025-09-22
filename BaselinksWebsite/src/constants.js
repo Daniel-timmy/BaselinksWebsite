@@ -9,6 +9,7 @@ import CAROUSEL7 from "./assets/carousel7.png";
 import CAROUSEL8 from "./assets/carousel8.png";
 import CAROUSEL9 from "./assets/carousel9.png";
 import CAROUSEL10 from "./assets/carousel10.png";
+import awards from "./assets/award.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -22,5 +23,5 @@ export const CAROUSEL_IMAGES = [
   CAROUSEL9,
   CAROUSEL10,
 ];
-
+export const AWARD = awards;
 export const LOGO = logo;

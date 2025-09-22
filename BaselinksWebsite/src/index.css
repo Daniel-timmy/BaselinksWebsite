@@ -41,6 +41,7 @@ h1 {
   --color-baselinks-teal: #006666;
   --color-header-border: #cce0e0;
   --color-hero-text: #494949;
+  --color-awards: #025454;
 }
 
 @layer base {
