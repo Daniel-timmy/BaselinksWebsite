@@ -15,7 +15,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className="h-screen min-w-[100vw] bg-cover bg-center transition-all duration-1000"
+      className="h-1/1 min-w-[100vw] bg-cover bg-center transition-all duration-1000"
       style={{
         backgroundImage: `url(${CAROUSEL_IMAGES[currentImage]})`,
       }}
