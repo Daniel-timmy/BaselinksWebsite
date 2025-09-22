@@ -5,10 +5,10 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-10 bg-white/25 backdrop-blur-2xl flex flex-col">
-      <div className="flex justify-between items-center p-4 shadow-md min-w-[100vw]">
+    <div className="sticky top-0 z-10 bg-white/25 backdrop-blur-2xl flex flex-col px-8">
+      <div className="flex justify-between items-center p-4 max-w-[100vw]">
         <img src={LOGO} />
-        <div className="hidden md:flex border-2 md:px-6 md:py-3 md:space-x-10 border-header-border rounded-full p-2">
+        <div className="hidden md:flex border-2 md:px-6 md:py-3 text-lg md:space-x-10  border-header-border rounded-full p-2">
           <a href="#about" className="text-gray-800 hover:text-gray-600 mx-2">
             Home
           </a>
@@ -22,7 +22,7 @@ const Header = () => {
             About
           </a>
         </div>
-        <button className="hidden md:block bg-baselinks-teal">
+        <button className="hidden md:block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
           Get in Touch.
         </button>
         <svg
