@@ -4,6 +4,7 @@ import Awards from "../components/homepage/Awards";
 import Header from "../components/Header";
 import Partners from "../components/homepage/Partners";
 import Achievements from "../components/homepage/Achievements";
+import Testimonials from "../components/homepage/Testimonials";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <Awards />
       <Partners />
       <Achievements />
+      <Testimonials />
 
       {/* <Awards /> */}
     </div>
