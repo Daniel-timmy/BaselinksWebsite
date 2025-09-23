@@ -18,6 +18,7 @@ import partner5 from "./assets/partner5.png";
 import partner6 from "./assets/partner6.png";
 import mesh from "./assets/mesh.png";
 import testimonials from "./assets/testimonials.png";
+import project1 from "./assets/project1.jpg";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -44,3 +45,4 @@ export const TESTIMONIALS = testimonials;
 export const AWARD = awards;
 export const LOGO = logo;
 export const MESH = mesh;
+export const PROJECT1 = project1;

@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Partners from "../components/homepage/Partners";
 import Achievements from "../components/homepage/Achievements";
 import Testimonials from "../components/homepage/Testimonials";
-
+import Projects from "../components/homepage/Projects";
 const Homepage = () => {
   return (
     <div>
@@ -15,6 +15,7 @@ const Homepage = () => {
       <Partners />
       <Achievements />
       <Testimonials />
+      <Projects />
 
       {/* <Awards /> */}
     </div>

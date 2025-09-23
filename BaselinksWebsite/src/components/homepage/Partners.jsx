@@ -3,7 +3,7 @@ import { PARTNER_LOGOS } from "../../constants";
 
 const Partners = () => {
   return (
-    <div className="min-w-[100vw] my-40 sm:my-60 lg:my-80 px-0 space-y-14 sm:space-y-14 h-59 sm:h-54 lg:h-54 flex flex-col items-center">
+    <div className="min-w-[100vw] my-20 sm:my-60 lg:my-80 px-0 space-y-14 sm:space-y-14 h-59 sm:h-54 lg:h-54 flex flex-col items-center">
       <h3 className="font-trajan text-3xl sm:text-[40px] px-8 lg:text-5xl text-black text-center">
         Partners who count on us
       </h3>

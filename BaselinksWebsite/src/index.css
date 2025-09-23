@@ -51,8 +51,10 @@ h1 {
   --color-card: #faf5eb;
   --color-card1: #e8e8e8;
   --color-card2: #006666;
-
+  --color-pill: #faf5eb;
   --color-awards: #025454;
+  --color-pill-text: #a57d2b;
+  --color-project-banner: #fbfbfbd9;
 }
 
 @layer base {

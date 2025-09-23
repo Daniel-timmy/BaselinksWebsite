@@ -64,7 +64,7 @@ const Testimonials = () => {
   const maxOffset = (testimonials.length - 1) * offsetStep;
 
   return (
-    <div className="sm:p-6 px-4 py-6 my-15 space-y-15">
+    <div className="sm:p-6 px-4 py-6 my-15 space-y-15 lg:w-screen">
       <h1 className="font-trajan text-black font-bold text-center text-5xl/15 sm:text-6xl/20 lg:text-7xl/25">
         What Our Clients Say
       </h1>
@@ -72,7 +72,7 @@ const Testimonials = () => {
         style={{
           backgroundImage: `url(${TESTIMONIALS})`,
         }}
-        className="bg-no-repeat bg-cover w-full rounded-3xl p-6 flex flex-col justify-between items-center space-y-10"
+        className="bg-no-repeat bg-contain bg-center w-full rounded-3xl p-6 flex flex-col justify-between items-center space-y-10"
       >
         {/* Stack container */}
         <div
