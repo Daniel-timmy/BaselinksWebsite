@@ -60,7 +60,7 @@ const Projects = () => {
             style={{
               backgroundImage: `url(${project.image})`,
             }}
-            className="bg-no-repeat bg-cover bg-center w-full h-86 lg:h-111 lg:w-107 rounded-[20px] lg:overflow-hidden p-3 flex flex-col justify-between space-y-10 group"
+            className="bg-no-repeat bg-cover bg-center w-full h-86 lg:h-111 sm:max-lg:w-107 space-x-2 lg:w-full rounded-[20px] lg:overflow-hidden p-3 flex flex-col justify-between space-y-10 group"
           >
             <div className="flex space-x-2 lg:opacity-0 lg:group-hover:opacity-100 lg:-translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
               {project.tags.map((tag, idx) => (
