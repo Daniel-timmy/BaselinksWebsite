@@ -10,6 +10,13 @@ import CAROUSEL8 from "./assets/carousel8.png";
 import CAROUSEL9 from "./assets/carousel9.png";
 import CAROUSEL10 from "./assets/carousel10.png";
 import awards from "./assets/award.png";
+import partner1 from "./assets/partner1.png";
+import partner2 from "./assets/partner2.png";
+import partner3 from "./assets/partner3.png";
+import partner4 from "./assets/partner4.png";
+import partner5 from "./assets/partner5.png";
+import partner6 from "./assets/partner6.png";
+import mesh from "./assets/mesh.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -23,5 +30,16 @@ export const CAROUSEL_IMAGES = [
   CAROUSEL9,
   CAROUSEL10,
 ];
+
+export const PARTNER_LOGOS = [
+  partner1,
+  partner2,
+  partner3,
+  partner4,
+  partner5,
+  partner6,
+];
+
 export const AWARD = awards;
 export const LOGO = logo;
+export const MESH = mesh;

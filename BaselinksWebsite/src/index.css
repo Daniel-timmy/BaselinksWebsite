@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 @tailwind utilities;
-
+/* Remove @tailwind components; use @layer components for custom component styles */
 :root {
   line-height: 1.5;
   font-weight: 400;
@@ -19,8 +19,6 @@
 }
 
 body {
-  /* margin: 0; */
-  display: flex;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -37,8 +35,17 @@ h1 {
   }
 }
 
+/* @layer components {
+  .container {
+    @apply ;
+  }
+} */
+
 @theme {
   --color-baselinks-teal: #006666;
+  --color-baselinks-teal-light: #cce0e0;
+  --color-baselinks-yellow: #cc9933;
+  --color-baselinks-yellow-light: #faf5eb;
   --color-header-border: #cce0e0;
   --color-hero-text: #494949;
   --color-awards: #025454;
@@ -46,7 +53,7 @@ h1 {
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    /* @apply scroll-smooth; */
   }
   body {
     font-family: "Satoshi", sans-serif;
@@ -55,5 +62,20 @@ h1 {
 @layer utilities {
   .font-trajan {
     font-family: "Trajan Pro", sans-serif;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-25%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: 400%;
   }
 }
