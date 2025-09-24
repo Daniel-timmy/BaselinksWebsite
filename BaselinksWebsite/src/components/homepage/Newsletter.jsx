@@ -20,7 +20,7 @@ const Newsletter = () => {
     //   </div>
     // </div>
     <div
-      className="lg:w-screen mx-3 sm:max-lg:mx-5  py-1 px-4 lg:h-fit h-100 mt-38 bg-cover lg:bg-contain bg-no-repeat bg-center rounded-[40px]"
+      className="lg:w-screen mx-3 sm:max-lg:mx-5 py-1 px-4 lg:h-fit h-100 mt-38 bg-cover lg:bg-contain bg-no-repeat bg-center rounded-[40px]"
       style={{ backgroundImage: `url(${NEWSLETTER_IMAGE})` }}
     >
       <div className=" lg:h-163 rounded-xl flex flex-col justify-center items-center h-full gap-8">
@@ -30,7 +30,7 @@ const Newsletter = () => {
         <p className="text-sm lg:text-[20px]">
           Get up-to-date insights delivered right into your inbox
         </p>
-        <div className="flex h-14 lg:w-75 sm:max-lg:w-100 bg-white/45 backdrop-blur-lg p-1 justify-between lg:py-2 items-center rounded-4xl">
+        <div className="flex h-14 lg:w-126 sm:max-lg:w-100 bg-white/45 backdrop-blur-lg p-1 justify-between lg:py-2 items-center rounded-4xl">
           <input
             className="rounded-l-4xl h-14 pl-1 outline-none text-white focus:ring-2 focus:ring-white/50"
             placeholder="Enter your email"

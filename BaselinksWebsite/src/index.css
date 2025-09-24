@@ -55,6 +55,8 @@ h1 {
   --color-awards: #025454;
   --color-pill-text: #a57d2b;
   --color-project-banner: #fbfbfbd9;
+  --color-footer-teal: #044141;
+  --color-footer-baselinks: #025454;
 }
 
 @layer base {

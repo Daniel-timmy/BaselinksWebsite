@@ -9,6 +9,7 @@ import Projects from "../components/homepage/Projects";
 import Services from "../components/homepage/Services";
 import CallToAction from "../components/homepage/CallToAction";
 import Newsletter from "../components/homepage/Newsletter";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -23,6 +24,7 @@ const Homepage = () => {
       <Services />
       <CallToAction />
       <Newsletter />
+      <Footer />
       {/* <Awards /> */}
     </div>
   );
