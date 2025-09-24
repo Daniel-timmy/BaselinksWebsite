@@ -79,7 +79,7 @@ const Projects = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <button className=" bg-baselinks-teal w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
+        <button className=" bg-baselinks-teal hover:opacity-70 cursor-pointer w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
           View All
         </button>
       </div>

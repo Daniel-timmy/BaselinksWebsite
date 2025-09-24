@@ -76,7 +76,7 @@ const Testimonials = () => {
       >
         {/* Stack container */}
         <div
-          className="relative w-full overflow-visible"
+          className="relative w-full overflow-visible "
           style={{
             height: `calc(30rem + ${maxOffset}px)`,
           }}
@@ -158,7 +158,7 @@ const Testimonials = () => {
         <div className="flex space-x-14 justify-center items-center">
           <button
             onClick={handlePrev}
-            className="h-12 w-22 rounded-3xl border-baselinks-teal border-2 flex justify-center items-center"
+            className="h-12 w-22 rounded-3xl cursor-pointer hover:bg-baselinks-teal/15 border-baselinks-teal border-2 flex justify-center items-center"
           >
             <svg
               width="24"
@@ -175,7 +175,7 @@ const Testimonials = () => {
           </button>
           <button
             onClick={handleNext}
-            className="h-12 w-22 rounded-3xl border-baselinks-teal border-2 flex justify-center items-center"
+            className="h-12 w-22 rounded-3xl cursor-pointer hover:bg-baselinks-teal/15 border-baselinks-teal border-2 flex justify-center items-center"
           >
             <svg
               width="24"

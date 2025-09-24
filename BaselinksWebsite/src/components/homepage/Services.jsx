@@ -23,7 +23,7 @@ const Services = () => {
               From personal and corporate branding to elegant graphic and motion
               design, we craft an identity that resonates and endures.
             </p>
-            <button className=" border-baselinks-teal border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
+            <button className=" border-baselinks-teal cursor-pointer hover:bg-baselinks-teal/15 border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
               Explore
               <svg
                 width="24"
@@ -62,7 +62,7 @@ const Services = () => {
               management, content marketing, and SEO/SEM are designed to
               attract, engage, and convert your ideal customers.
             </p>
-            <button className=" border-baselinks-teal border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
+            <button className=" border-baselinks-teal cursor-pointer hover:bg-baselinks-teal/15 border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
               Explore
               <svg
                 width="24"
@@ -106,7 +106,7 @@ const Services = () => {
               deliver exceptional user experiences, converting curious visitors
               to customers.
             </p>
-            <button className=" border-baselinks-teal border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
+            <button className=" border-baselinks-teal cursor-pointer hover:bg-baselinks-teal/15 border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
               Explore
               <svg
                 width="24"
@@ -153,7 +153,7 @@ const Services = () => {
               photography, videography, and podcast production that captivates
               your audience.
             </p>
-            <button className=" border-baselinks-teal border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
+            <button className=" border-baselinks-teal cursor-pointer hover:bg-baselinks-teal/15 border-2 w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5 text-black flex items-center gap-3">
               Explore
               <svg
                 width="24"

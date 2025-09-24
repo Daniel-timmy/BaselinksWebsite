@@ -39,7 +39,7 @@ const HeroSection = () => {
             Baselinks is your all-in-one partner for branding, digital
             marketing, media, and web development.
           </p>
-          <button className="block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
+          <button className="block hover:opacity-70 bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
             Start Your Journey
           </button>
         </div>

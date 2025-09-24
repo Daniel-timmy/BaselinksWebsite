@@ -151,7 +151,7 @@ const Achievements = () => {
           </defs>
         </svg>
       </div>
-      <div className="lg:pt-35 max-lg:grid grid-cols-1 sm:grid-cols-2 lg:flex gap-4 lg:hover:w-320  lg:w-fit sm:max-lg:pl-10 justify-items-center sm:justify-items-end">
+      <div className="lg:pt-35 max-lg:grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-end gap-4 lg:hover:w-320  lg:w-fit sm:max-lg:pl-10 justify-items-center sm:justify-items-end">
         <div
           style={{
             backgroundImage: `url(${MESH})`,

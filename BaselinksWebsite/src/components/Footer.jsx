@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="w-screen px-4 mt-40">
-      <div className="bg-footer-teal py-14 px-6 space-y-10 ">
+      <div className="bg-footer-teal py-14 px-6 space-y-10 rounded-lg">
         <div className="justify-items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5  rounded-lg gap-10">
           <h6 className="font-trajan text-left text-2xl/7.5 lg:text-[32px]/10 ">
             Every <br /> connection <br />

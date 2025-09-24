@@ -26,7 +26,7 @@ const Header = () => {
           </a>
         </div>
         <div className="flex items-center space-x-6">
-          <button className="hidden md:block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
+          <button className="hidden hover:opacity-70 md:block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
             Get in Touch.
           </button>
           <svg
