@@ -30,6 +30,7 @@ import digital from "./assets/digital.jpg";
 import media from "./assets/media.png";
 import cta from "./assets/cta.png";
 import newsletter from "./assets/newsletter.png";
+import idea from "./assets/idea.gif";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -53,6 +54,7 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const IDEA_IMAGE = idea;
 export const CTA_IMAGE = cta;
 export const TESTIMONIALS = testimonials;
 export const AWARD = awards;
