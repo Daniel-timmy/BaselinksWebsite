@@ -3,7 +3,7 @@ import { CTA_IMAGE, IDEA_IMAGE } from "../../constants";
 
 const CallToAction = () => {
   return (
-    <div className="w-screen">
+    <div className="w-screen mt-37">
       <div
         style={{
           backgroundImage: `url(${CTA_IMAGE})`,
@@ -13,7 +13,7 @@ const CallToAction = () => {
         <div className="h-full w-full lg:h-full lg:w-1/2 mx-auto ">
           <img src={IDEA_IMAGE} className="h-full w-full object-contain" />
         </div>
-        <div className="gap-10 flex flex-col ">
+        <div className="gap-10 flex flex-col lg:w-1/2 ">
           <h3 className="font-trajan text-4xl/15 sm:text-6xl/20 text-black text-left font-bold">
             Ready to <span className="text-baselinks-teal">transform</span> your
             business?
