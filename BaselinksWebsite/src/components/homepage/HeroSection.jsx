@@ -20,9 +20,9 @@ const HeroSection = () => {
         backgroundImage: `url(${CAROUSEL_IMAGES[currentImage]})`,
       }}
     >
-      <Header />
-      <div className="flex flex-col mt-48 sm:mt-42 lg:mt-24 max-w-full py-6 px-4 md:p-6 lg:px-8 space-y-28 max-sm:items-center">
-        <div className="hidden sm:block bg-white/25 backdrop-blur-xs w-1/1 lg:w-fit rounded-3xl p-6 text-left space-y-8">
+      {/* <Header /> */}
+      <div className="flex flex-col pt-48 max-w-full py-6 px-4 md:p-6 lg:px-8 space-y-28 max-sm:items-center">
+        <div className="hidden sm:block sm:mt-42 lg:mt-24 bg-white/25 backdrop-blur-xs w-1/1 lg:w-fit rounded-3xl p-6 text-left space-y-8">
           <p className="text-black font-trajan text-bold text-5xl/10 lg:text-7xl/25">
             Integrated <span className="text-baselinks-teal">Solutions...</span>{" "}
           </p>

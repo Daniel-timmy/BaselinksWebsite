@@ -14,7 +14,9 @@ import Footer from "../components/Footer";
 const Homepage = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <div className="absolute w-full z-10 top-0">
+        <Header />
+      </div>{" "}
       <HeroSection />
       <Awards />
       <Partners />
