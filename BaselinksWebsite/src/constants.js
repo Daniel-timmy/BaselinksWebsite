@@ -24,6 +24,12 @@ import project3 from "./assets/project3.jpg";
 import project4 from "./assets/project4.jpg";
 import project5 from "./assets/project5.jpg";
 import project6 from "./assets/project6.jpg";
+import dev from "./assets/dev.jpg";
+import branding from "./assets/branding.png";
+import digital from "./assets/digital.jpg";
+import media from "./assets/media.png";
+import cta from "./assets/cta.png";
+import newsletter from "./assets/newsletter.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -46,8 +52,11 @@ export const PARTNER_LOGOS = [
   partner5,
   partner6,
 ];
+
+export const CTA_IMAGE = cta;
 export const TESTIMONIALS = testimonials;
 export const AWARD = awards;
+export const NEWSLETTER_IMAGE = newsletter;
 export const LOGO = logo;
 export const MESH = mesh;
 export const PROJECT1 = project1;
@@ -56,3 +65,7 @@ export const PROJECT3 = project3;
 export const PROJECT4 = project4;
 export const PROJECT5 = project5;
 export const PROJECT6 = project6;
+export const DEV = dev;
+export const BRANDING = branding;
+export const DIGITAL = digital;
+export const MEDIA = media;

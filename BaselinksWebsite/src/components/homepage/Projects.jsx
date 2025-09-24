@@ -49,7 +49,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="my-20 min-w-screen space-y-14">
+    <div className="my-20 min-w-screen space-y-14 flex flex-col items-centers justify-center">
       <h1 className="font-trajan text-5xl/15 sm:text-6xl/20 text-black text-center font-bold">
         Our Projects
       </h1>
@@ -60,7 +60,7 @@ const Projects = () => {
             style={{
               backgroundImage: `url(${project.image})`,
             }}
-            className="bg-no-repeat bg-cover bg-center w-full h-86 lg:h-111 sm:max-lg:w-107 space-x-2 lg:w-full rounded-[20px] lg:overflow-hidden p-3 flex flex-col justify-between space-y-10 group"
+            className="bg-no-repeat bg-cover bg-center w-full h-86 lg:h-111 space-x-2 lg:w-full rounded-[20px] lg:overflow-hidden p-3 flex flex-col justify-between space-y-10 group"
           >
             <div className="flex space-x-2 lg:opacity-0 lg:group-hover:opacity-100 lg:-translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
               {project.tags.map((tag, idx) => (
@@ -77,6 +77,11 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center">
+        <button className=" bg-baselinks-teal w-fit px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
+          View All
+        </button>
       </div>
     </div>
   );
