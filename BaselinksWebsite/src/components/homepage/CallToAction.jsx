@@ -8,9 +8,9 @@ const CallToAction = () => {
         style={{
           backgroundImage: `url(${CTA_IMAGE})`,
         }}
-        className="bg-no-repeat bg-cover lg:h-136 bg-center flex max-lg:flex-col py-14 px-4 gap-12"
+        className="bg-no-repeat bg-cover lg:h-136 bg-center flex justify-between max-lg:flex-col py-14 px-4 gap-12"
       >
-        <div className="h-full w-full lg:h-full lg:w-1/2 mx-auto">
+        <div className="h-full w-full lg:h-full lg:w-1/2 mx-auto ">
           <img src={IDEA_IMAGE} className="h-full w-full object-contain" />
         </div>
         <div className="gap-10 flex flex-col ">

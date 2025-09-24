@@ -20,10 +20,10 @@ const Newsletter = () => {
     //   </div>
     // </div>
     <div
-      className="w-screen bg-black py-1 px-4 h-fit mt-38 bg-cover bg-no-repeat bg-center"
+      className="w-screen bg-amber-950 py-1 px-4 h-fit mt-38 bg-contain bg-no-repeat bg-center overflow-x-visible rounded-[40px]"
       style={{ backgroundImage: `url(${NEWSLETTER_IMAGE})` }}
     >
-      <div className="bg-baselinks-teal w-full lg:h-163 rounded-xl flex flex-col items-center gap-8">
+      <div className=" lg:h-163 rounded-xl flex flex-col justify-center items-center gap-8">
         <h3 className="font-trajan text-2xl">Subscribe to Our Newsletter</h3>
         <p>Get up-to-date insights delivered right into your inbox</p>
         <div className="flex h-14 w-75 bg-white/45 backdrop-blur-lg p-1 justify-between lg:py-2 items-center rounded-4xl">
