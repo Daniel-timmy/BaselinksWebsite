@@ -41,10 +41,10 @@ const Story = () => {
             That’s how we deliver your unfair advantage.
           </p>{" "}
         </div>
-        <div className="flex flex-col space-y-4 w-full text-center items-center  text-black ">
+        <div className="flex flex-col space-y-4 w-fit lg:w-full text-center items-center  text-black ">
           <img
             src={BALO}
-            className="rounded-2xl sm:max-md:w-66.5 lg:w-111 lg:h-144.5"
+            className="rounded-2xl sm:max-lg:w-66.5 lg:w-111 lg:h-144.5"
           />
           <h6 className="font-trajan text-2xl/6 lg:text-[32px]/10 font-bold">
             Samson Balogun
