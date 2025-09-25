@@ -26,7 +26,7 @@ const Approach = () => {
               holistic, data-driven perspective.
             </p>
           </div>
-          <img src={APPROACH} />
+          <img src={APPROACH} className="size-89 lg:size-123" />
         </div>
         <div
           className="px-4 bg-cover -mt-10 space-y-10 flex max-sm:flex-col justify-between sm:gap-25 sm:flex-row-reverse
