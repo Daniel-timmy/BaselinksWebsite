@@ -41,7 +41,7 @@ const Story = () => {
             That’s how we deliver your unfair advantage.
           </p>{" "}
         </div>
-        <div className="flex flex-col space-y-4 text-center text-black w-fit">
+        <div className="flex flex-col space-y-4 w-full text-center items-center  text-black ">
           <img
             src={BALO}
             className="rounded-2xl sm:max-md:w-66.5 lg:w-111 lg:h-144.5"
