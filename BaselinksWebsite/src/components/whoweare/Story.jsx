@@ -9,7 +9,7 @@ const Story = () => {
         backgroundImage: `url(${CIRCLE})`,
       }}
     >
-      <div className="rounded-4xl p-4 space-y-6 flex lg:flex-row-reverse  max-lg:flex-col justify-between bg-story">
+      <div className="rounded-4xl p-4 space-y-6 flex lg:flex-row-reverse  max-lg:flex-col bg-story">
         <div className="py-6 space-y-4 text-left">
           <h4 className="font-trajan text-[40px]/15 lg:text-[60px]/20 text-baselinks-teal -tracking-tighter">
             The Baselinks Story & Personality
@@ -42,7 +42,10 @@ const Story = () => {
           </p>{" "}
         </div>
         <div className="flex flex-col space-y-4 text-center text-black w-fit">
-          <img src={BALO} className="rounded-2xl sm:max-lg:w-66.5 lg:w-111" />
+          <img
+            src={BALO}
+            className="rounded-2xl sm:max-lg:w-66.5 lg:w-111 lg:h-144.5"
+          />
           <h6 className="font-trajan text-2xl/6 lg:text-[32px]/10 font-bold">
             Samson Balogun
           </h6>
