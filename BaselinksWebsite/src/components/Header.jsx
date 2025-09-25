@@ -1,48 +1,51 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link for routing
 import { LOGO } from "../constants";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="max-lg:bg-white/25 max-lg:backdrop-blur-xs z-10  flex flex-col xl:px-8 py-2.5 sm:px-6  px-4">
+    <div className="max-lg:bg-white/25 max-lg:backdrop-blur-xs z-10 flex flex-col xl:px-8 py-2.5 sm:px-6 px-4">
       <div className="flex justify-between items-center p-4 max-w-[100vw]">
-        <img src={LOGO} className="size-10" />
-        <div className="hidden lg:flex border-2 bg-white/25 backdrop-blur-2xl md:px-6 md:py-3 w-xl justify-between text-lg md:space-x-10  border-header-border rounded-full p-2">
-          <a
-            href="#about"
+        <Link to="/">
+          <img src={LOGO} className="size-10" alt="Logo" />
+        </Link>
+        <div className="hidden lg:flex border-2 bg-white/25 backdrop-blur-2xl md:px-6 md:py-3 w-xl justify-between text-lg md:space-x-10 border-header-border rounded-full p-2">
+          <Link
+            to="/"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            to="/who-we-are"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
-            What We Do{" "}
-          </a>
-          <a
-            href="#about"
+            What We Do
+          </Link>
+          <Link
+            to="#"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
-            Our Process{" "}
-          </a>
-          <a
-            href="#about"
+            Our Process
+          </Link>
+          <Link
+            to="#"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
-            Case Studies{" "}
-          </a>
-          <a
-            href="#about"
+            Case Studies
+          </Link>
+          <Link
+            to="#"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
-            Resources{" "}
-          </a>
+            Resources
+          </Link>
         </div>
         <div className="flex items-center space-x-6">
           <button className="hidden hover:opacity-70 md:block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
-            Get in Touch.
+            Get in Touch
           </button>
           <svg
             className="lg:hidden cursor-pointer"
@@ -62,21 +65,24 @@ const Header = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden flex flex-col shadow-md">
-          <a href="#about" className="text-gray-800 hover:text-gray-600 p-4">
+          <Link to="/" className="text-gray-800 hover:text-gray-600 p-4">
             Home
-          </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 p-4">
-            What We Do{" "}
-          </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 p-4">
-            Our Process{" "}
-          </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 p-4">
-            Case Studies{" "}
-          </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 p-4">
-            Resources{" "}
-          </a>
+          </Link>
+          <Link
+            to="/who-we-are"
+            className="text-gray-800 hover:text-gray-600 p-4"
+          >
+            What We Do
+          </Link>
+          <Link to="#" className="text-gray-800 hover:text-gray-600 p-4">
+            Our Process
+          </Link>
+          <Link to="#" className="text-gray-800 hover:text-gray-600 p-4">
+            Case Studies
+          </Link>
+          <Link to="#" className="text-gray-800 hover:text-gray-600 p-4">
+            Resources
+          </Link>
         </div>
       )}
     </div>
