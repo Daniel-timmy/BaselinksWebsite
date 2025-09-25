@@ -14,7 +14,7 @@ const Approach = () => {
       </div>
       <div className="flex flex-col space-y-15.5  ">
         <div className="px-4 space-y-10 flex max-sm:flex-col justify-between sm:gap-25">
-          <div className="space-y-4 text-left ">
+          <div className="space-y-4 text-left lg:w-169">
             <h4 className="text-black font-trajan font-bold text-2xl/7.5 lg:text-[40px]/15">
               <span className="text-baselinks-teal">Data</span>-driven Solution
             </h4>
@@ -35,7 +35,7 @@ const Approach = () => {
             backgroundImage: `url(${ABG})`,
           }}
         >
-          <div className="space-y-4 text-left ">
+          <div className="space-y-4 text-left lg:w-169">
             <h4 className="text-black font-trajan font-bold text-2xl/7.5 lg:text-[40px]/15">
               Engineering <span className="text-baselinks-teal">Systems</span>{" "}
               for Sustainable Growth:
@@ -48,10 +48,10 @@ const Approach = () => {
               and new challenges to ensure long-term, self-perpetuating growth.
             </p>
           </div>
-          <img src={APPROACH1} />
+          <img src={APPROACH1} className="size-89 lg:size-123" />
         </div>
         <div className="px-4 space-y-10 flex max-sm:flex-col justify-between sm:gap-25">
-          <div className="space-y-4 text-left ">
+          <div className="space-y-4 text-left lg:w-169">
             <h4 className="text-black font-trajan font-bold text-2xl/7.5 lg:text-[40px]/15">
               <span className="text-baselinks-teal">Innovation</span>-driven
               Solution as a Standard:
