@@ -35,6 +35,10 @@ import blog1 from "./assets/blog1.png";
 import blog2 from "./assets/blog2.png";
 import balo from "./assets/balo.jpg";
 import circle from "./assets/circle.gif";
+import approach from "./assets/approach1.png";
+import approach1 from "./assets/approach2.png";
+import approach2 from "./assets/approach3.png";
+import abg from "./assets/abg.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -58,6 +62,10 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const ABG = abg;
+export const APPROACH = approach;
+export const APPROACH1 = approach1;
+export const APPROACH2 = approach2;
 export const CIRCLE = circle;
 export const BALO = balo;
 export const BLOG1 = blog1;

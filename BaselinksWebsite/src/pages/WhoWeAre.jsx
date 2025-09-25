@@ -1,7 +1,9 @@
 import React from "react";
 import Hero from "../components/whoweare/Hero";
 import Header from "../components/Header";
+import Approach from "../components/whoweare/Approach";
 import Story from "../components/whoweare/Story";
+
 const WhoWeAre = () => {
   return (
     <div>
@@ -10,6 +12,7 @@ const WhoWeAre = () => {
       </div>{" "}
       <Hero />
       <Story />
+      <Approach />
     </div>
   );
 };
