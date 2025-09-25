@@ -3,7 +3,7 @@ import { APPROACH, APPROACH1, APPROACH2, ABG } from "../../constants";
 
 const Approach = () => {
   return (
-    <div className="space-y-14 flex flex-col mt-40">
+    <div className="space-y-14 flex flex-col mt-40 w-screen">
       <div className="space-y-3">
         <h2 className="font-trajan font-bold text-[32px]/10 sm:text-[40px]/15 lg:text-6xl/20 text-baselinks-yellow">
           The Baselinks Approach
@@ -29,7 +29,7 @@ const Approach = () => {
           <img src={APPROACH} />
         </div>
         <div
-          className="px-4 bg-cover bg-right -mt-10 space-y-10 flex max-sm:flex-col justify-between sm:gap-25 sm:flex-row-reverse
+          className="px-4 bg-cover -mt-10 space-y-10 flex max-sm:flex-col justify-between sm:gap-25 sm:flex-row-reverse
           "
           style={{
             backgroundImage: `url(${ABG})`,
