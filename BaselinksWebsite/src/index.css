@@ -57,6 +57,7 @@ h1 {
   --color-project-banner: #fbfbfbd9;
   --color-footer-teal: #044141;
   --color-footer-baselinks: #025454;
+  --color-story: #faf5eb;
 }
 
 @layer base {

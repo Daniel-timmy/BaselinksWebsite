@@ -72,8 +72,12 @@ const Testimonials = () => {
         style={{
           backgroundImage: `url(${TESTIMONIALS})`,
         }}
-        className="bg-no-repeat bg-contain bg-center w-full rounded-3xl p-6 flex flex-col justify-between items-center space-y-10"
+        className="relative bg-no-repeat bg-contain bg-center w-full rounded-3xl p-6 flex flex-col justify-between items-center space-y-10"
       >
+        {/* <div
+          className="absolute inset-0 opacity-10 h-8/10 bg-black/100  
+        "
+        /> */}
         {/* Stack container */}
         <div
           className="relative w-full overflow-visible "
