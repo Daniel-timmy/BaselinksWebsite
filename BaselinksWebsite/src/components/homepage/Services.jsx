@@ -6,7 +6,7 @@ const Services = () => {
     <div className="px-4 py-6 sm:px-6 lg:px-8 w-screen">
       <h1 className="font-trajan text-4xl/15 sm:text-6xl/20 text-black text-left my-20">
         <span className="text-baselinks-yellow">Beyond</span> a single service,
-        <br className="hidden sm:block" />A{" "}
+        <br className="hidden sm:block" /> A{" "}
         <span className="text-baselinks-teal">complete</span> solution.{" "}
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  mx-auto">

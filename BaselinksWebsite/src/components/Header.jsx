@@ -9,19 +9,34 @@ const Header = () => {
       <div className="flex justify-between items-center p-4 max-w-[100vw]">
         <img src={LOGO} className="size-10" />
         <div className="hidden lg:flex border-2 bg-white/25 backdrop-blur-2xl md:px-6 md:py-3 w-xl justify-between text-lg md:space-x-10  border-header-border rounded-full p-2">
-          <a href="#about" className="text-gray-800 hover:text-gray-600 mx-2">
+          <a
+            href="#about"
+            className="hover:text-baselinks-yellow text-gray-800 mx-2"
+          >
             Home
           </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 mx-2">
+          <a
+            href="#about"
+            className="hover:text-baselinks-yellow text-gray-800 mx-2"
+          >
             What We Do{" "}
           </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 mx-2">
+          <a
+            href="#about"
+            className="hover:text-baselinks-yellow text-gray-800 mx-2"
+          >
             Our Process{" "}
           </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 mx-2">
+          <a
+            href="#about"
+            className="hover:text-baselinks-yellow text-gray-800 mx-2"
+          >
             Case Studies{" "}
           </a>
-          <a href="#about" className="text-gray-800 hover:text-gray-600 mx-2">
+          <a
+            href="#about"
+            className="hover:text-baselinks-yellow text-gray-800 mx-2"
+          >
             Resources{" "}
           </a>
         </div>

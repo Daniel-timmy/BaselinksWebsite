@@ -16,11 +16,11 @@ const Newsletter = () => {
         </p>
         <div className="flex h-14 lg:w-126 sm:max-lg:w-100 bg-white/45 backdrop-blur-lg p-1 justify-between lg:py-2 items-center rounded-4xl">
           <input
-            className="rounded-l-4xl h-14 pl-1 outline-none w-8/11 text-white "
+            className="rounded-l-4xl h-14 pl-1 outline-none lg:w-8/11 text-white "
             // className="rounded-l-4xl h-14 pl-1 outline-none w-8/11 text-white focus:ring-2 focus:ring-white/50"
             placeholder="Enter your email"
           />
-          <button className="bg-baselinks-teal hover:opacity-70 w- px-4 rounded-3xl font-bold text-md py-2.5">
+          <button className="bg-baselinks-teal hover:opacity-70 w-fit px-4 rounded-3xl font-bold text-md py-2.5">
             Send Email
           </button>
         </div>

@@ -31,6 +31,8 @@ import media from "./assets/media.png";
 import cta from "./assets/cta.png";
 import newsletter from "./assets/newsletter.png";
 import idea from "./assets/idea.gif";
+import blog1 from "./assets/blog1.png";
+import blog2 from "./assets/blog2.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -54,6 +56,8 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const BLOG1 = blog1;
+export const BLOG2 = blog2;
 export const IDEA_IMAGE = idea;
 export const CTA_IMAGE = cta;
 export const TESTIMONIALS = testimonials;

@@ -10,11 +10,12 @@ import Services from "../components/homepage/Services";
 import CallToAction from "../components/homepage/CallToAction";
 import Newsletter from "../components/homepage/Newsletter";
 import Footer from "../components/Footer";
+import Blog from "../components/homepage/Blog";
 
 const Homepage = () => {
   return (
     <div>
-      <div className="absolute w-full z-10 top-0">
+      <div className="fixed w-full z-50 top-0">
         <Header />
       </div>{" "}
       <HeroSection />
@@ -26,8 +27,8 @@ const Homepage = () => {
       <Services />
       <CallToAction />
       <Newsletter />
+      {/* <Blog /> */}
       <Footer />
-      {/* <Awards /> */}
     </div>
   );
 };

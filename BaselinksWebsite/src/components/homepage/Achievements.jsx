@@ -151,12 +151,12 @@ const Achievements = () => {
           </defs>
         </svg>
       </div>
-      <div className="lg:pt-35 max-lg:grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-end gap-4 lg:hover:w-320  lg:w-fit sm:max-lg:pl-10 justify-items-center sm:justify-items-end">
+      <div className="lg:pt-35 max-lg:grid grid-cols-1 duration-400 ease-in-out sm:grid-cols-2 lg:flex lg:justify-end gap-4 lg:hover:w-320  lg:w-fit sm:max-lg:pl-10 justify-items-center sm:justify-items-end">
         <div
           style={{
             backgroundImage: `url(${MESH})`,
           }}
-          className="group font-trajan font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-teal lg:bg-baselinks-teal-light lg:hover:bg-baselinks-teal max-lg:w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
+          className="group font-trajan font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-teal lg:bg-baselinks-teal-light lg:hover:bg-baselinks-teal max-lg:w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center duration-400 ease-in-out"
         >
           <svg
             className="group-hover:fill-white fill-white lg:fill-baselinks-teal "
@@ -195,7 +195,7 @@ const Achievements = () => {
           style={{
             backgroundImage: `url(${MESH})`,
           }}
-          className="group font-trajan font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-yellow lg:bg-baselinks-yellow-light lg:hover:bg-baselinks-yellow w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
+          className="group font-trajan duration-400 ease-in-out font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-yellow lg:bg-baselinks-yellow-light lg:hover:bg-baselinks-yellow w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
         >
           <svg
             className="group-hover:fill-white fill-white lg:fill-baselinks-teal"
@@ -262,7 +262,7 @@ const Achievements = () => {
           style={{
             backgroundImage: `url(${MESH})`,
           }}
-          className="group font-trajan font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-teal lg:bg-baselinks-teal-light lg:hover:bg-baselinks-teal w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
+          className="group font-trajan duration-400 ease-in-out font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-teal lg:bg-baselinks-teal-light lg:hover:bg-baselinks-teal w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
         >
           <svg
             width="60"
@@ -298,7 +298,7 @@ const Achievements = () => {
           style={{
             backgroundImage: `url(${MESH})`,
           }}
-          className="group font-trajan font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-yellow lg:bg-baselinks-yellow-light lg:hover:bg-baselinks-yellow w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
+          className="group font-trajan duration-400 ease-in-out font-bold flex flex-col justify-between bg-no-repeat h-100 bg-baselinks-yellow lg:bg-baselinks-yellow-light lg:hover:bg-baselinks-yellow w-87 lg:w-38 lg:hover:w-87 rounded-3xl p-6 bg-center"
         >
           <svg
             width="60"
