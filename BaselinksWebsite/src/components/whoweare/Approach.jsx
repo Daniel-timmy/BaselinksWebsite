@@ -12,7 +12,7 @@ const Approach = () => {
           To deliver on our promise, we focus on three core principles:
         </p>
       </div>
-      <div className="flex flex-col space-y-15.5  ">
+      <div className="flex flex-col space-y-15.5 lg:px-4">
         <div className="px-4 space-y-10 flex max-sm:flex-col justify-between sm:gap-25">
           <div className="space-y-4 text-left lg:w-169">
             <h4 className="text-black font-trajan font-bold text-2xl/7.5 lg:text-[40px]/15">

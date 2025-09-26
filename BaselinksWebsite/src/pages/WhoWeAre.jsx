@@ -3,6 +3,8 @@ import Hero from "../components/whoweare/Hero";
 import Header from "../components/Header";
 import Approach from "../components/whoweare/Approach";
 import Story from "../components/whoweare/Story";
+import Footer from "../components/Footer";
+import WhoWeServe from "../components/whoweare/WhoWeServe";
 
 const WhoWeAre = () => {
   return (
@@ -13,6 +15,8 @@ const WhoWeAre = () => {
       <Hero />
       <Story />
       <Approach />
+      <WhoWeServe />
+      <Footer />
     </div>
   );
 };

@@ -39,6 +39,11 @@ import approach from "./assets/approach1.png";
 import approach1 from "./assets/approach2.png";
 import approach2 from "./assets/approach3.png";
 import abg from "./assets/abg.png";
+import bg_serve from "./assets/bg_serve.png";
+import serve1 from "./assets/serve1.png";
+import serve2 from "./assets/serve2.png";
+import serve3 from "./assets/serve3.png";
+import serve4 from "./assets/serve4.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -62,6 +67,11 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const SERVE1 = serve1;
+export const SERVE2 = serve2;
+export const SERVE3 = serve3;
+export const SERVE4 = serve4;
+export const BGSERVE = bg_serve;
 export const ABG = abg;
 export const APPROACH = approach;
 export const APPROACH1 = approach1;

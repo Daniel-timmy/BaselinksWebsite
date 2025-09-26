@@ -140,7 +140,6 @@ const Hero = () => {
       <div className="flex justify-center">
         <svg
           className="lg:w-167 sm:w-117 w-62.5"
-          height="6"
           viewBox="0 0 257 6"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
