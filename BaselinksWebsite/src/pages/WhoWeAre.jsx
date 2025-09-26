@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import WhoWeServe from "../components/whoweare/WhoWeServe";
 import Team from "../components/whoweare/Team";
 import Partners from "../components/whoweare/Partners";
+import Principles from "../components/whoweare/Principles";
 
 const WhoWeAre = () => {
   return (
@@ -20,6 +21,7 @@ const WhoWeAre = () => {
       <WhoWeServe />
       <Team />
       <Partners />
+      <Principles />
       <Footer />
     </div>
   );

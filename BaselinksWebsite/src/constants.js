@@ -49,6 +49,9 @@ import team2 from "./assets/team2.jpg";
 import team3 from "./assets/team3.jpg";
 import team4 from "./assets/team4.jpg";
 import cube from "./assets/partner.png";
+import rotating from "./assets/rotating.png";
+import gear from "./assets/gear.gif";
+import mission from "./assets/mission.gif";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -72,6 +75,9 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const MISSION = mission;
+export const GEAR = gear;
+export const ROT = rotating;
 export const CUBE = cube;
 export const TEAM1 = team1;
 export const TEAM2 = team2;

@@ -13,7 +13,7 @@ const Services = () => {
         <div className=" shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] sm:h-125 rounded-sm pb-8 gap-8 flex flex-col items-center justify-center">
           <img
             src={BRANDING}
-            className="bg-contain sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
+            className="bg-contain object-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
           />
           <div className="flex flex-col text-left px-6">
             <h2 className="font-trajan text-2xl text-black font-bold mb-1 sm:text-[32px]">
@@ -92,7 +92,7 @@ const Services = () => {
           </div>
           <img
             src={DIGITAL}
-            className="bg-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
+            className="bg-cover object-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
           />
         </div>
         <div className="shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] sm:h-125 rounded-sm  gap-8 flex flex-col items-center justify-center">
@@ -136,13 +136,13 @@ const Services = () => {
           </div>
           <img
             src={DEV}
-            className="bg-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
+            className="bg-cover object-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
           />
         </div>
         <div className="shadow-[0_4px_8px_0_rgba(0,0,0,0.2)] rounded-sm sm:h-125 pb-8 gap-8 flex flex-col items-center justify-center">
           <img
             src={MEDIA}
-            className="bg-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
+            className="bg-cover object-cover sm:h-3/5 sm:overflow-hidden  sm:w-1/1"
           />
           <div className="flex flex-col text-left px-6 ">
             <h2 className="font-trajan text-2xl text-black font-bold mb-1 sm:text-[32px]">

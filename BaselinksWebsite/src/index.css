@@ -58,6 +58,8 @@ h1 {
   --color-footer-teal: #044141;
   --color-footer-baselinks: #025454;
   --color-story: #faf5eb;
+  --color-border-color: #ebebd6;
+  --color-principle: #e0c285;
 }
 
 @layer base {
@@ -86,5 +88,25 @@ h1 {
     animation: scroll 30s linear infinite;
     display: flex;
     width: 400%;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(var(--angle));
+    }
+    100% {
+      transform: rotate(calc(var(--angle) + 360deg));
+    }
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(-360deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .animate-spin {
+    animation: rotate 35s linear infinite;
   }
 }
