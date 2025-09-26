@@ -6,6 +6,7 @@ import Story from "../components/whoweare/Story";
 import Footer from "../components/Footer";
 import WhoWeServe from "../components/whoweare/WhoWeServe";
 import Team from "../components/whoweare/Team";
+import Partners from "../components/whoweare/Partners";
 
 const WhoWeAre = () => {
   return (
@@ -18,6 +19,7 @@ const WhoWeAre = () => {
       <Approach />
       <WhoWeServe />
       <Team />
+      <Partners />
       <Footer />
     </div>
   );

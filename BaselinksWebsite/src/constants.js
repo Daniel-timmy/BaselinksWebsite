@@ -48,6 +48,7 @@ import team1 from "./assets/team1.jpg";
 import team2 from "./assets/team2.jpg";
 import team3 from "./assets/team3.jpg";
 import team4 from "./assets/team4.jpg";
+import cube from "./assets/partner.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -71,6 +72,7 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const CUBE = cube;
 export const TEAM1 = team1;
 export const TEAM2 = team2;
 export const TEAM3 = team3;
