@@ -9,7 +9,7 @@ const Story = () => {
         backgroundImage: `url(${CIRCLE})`,
       }}
     >
-      <div className="absolute rounded-[48px] inset-0 h-full bg-[#F5EBD6] opacity-50  lg:opacity-0 lg:group-hover:opacity-40 transition-opacity duration-300 z-0"></div>
+      <div className="absolute rounded-[48px] inset-0 h-full bg-[#F5EBD6] opacity-50 "></div>
 
       <div className="rounded-4xl z-10 p-4 space-y-6 flex lg:flex-row-reverse lg:space-x-6  max-lg:flex-col bg-story">
         <div className="py-6 z-10 space-y-4 text-left">
