@@ -56,6 +56,9 @@ import vision from "./assets/vision.gif";
 import purpose from "./assets/purpose.gif";
 import success from "./assets/success.png";
 import step1 from "./assets/step1.png";
+import step2 from "./assets/strategy.png";
+import step3 from "./assets/design.png";
+import step4 from "./assets/deliver.png";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -80,6 +83,9 @@ export const PARTNER_LOGOS = [
 ];
 
 export const STEP1 = step1;
+export const STEP2 = step2;
+export const STEP3 = step3;
+export const STEP4 = step4;
 export const SUCCESS = success;
 export const VISION = vision;
 export const PURPOSE = purpose;
