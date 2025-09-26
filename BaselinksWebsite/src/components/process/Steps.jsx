@@ -27,7 +27,7 @@ const Stepbar = ({ setCurrentStep, currentStep }) => {
                 }`}
               >
                 <div
-                  className={`step-number font-trajan ${
+                  className={`step-number font-trajan text-lg lg:text-3xl ${
                     index <= currentStep ? "text-[#338585]" : "text-[#8D8D8D]"
                   }`}
                 >

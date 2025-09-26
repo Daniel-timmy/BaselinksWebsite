@@ -43,9 +43,8 @@
 }
 
 .step-number {
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: bold;
-  /* color: #8d8d8d; */
   margin-left: -18px;
 }
 .label {
