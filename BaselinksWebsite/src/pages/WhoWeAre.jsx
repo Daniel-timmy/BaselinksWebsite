@@ -18,10 +18,10 @@ const WhoWeAre = () => {
       <Hero />
       <Story />
       <Approach />
+      <Principles />
       <WhoWeServe />
       <Team />
       <Partners />
-      <Principles />
       <Footer />
     </div>
   );
