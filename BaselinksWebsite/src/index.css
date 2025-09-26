@@ -61,6 +61,7 @@ h1 {
   --color-border-color: #ebebd6;
   --color-principle: #e0c285;
   --color-card-principle: #f4f4f4;
+  --color-inner-card: #e0c2854d;
 }
 
 @layer base {

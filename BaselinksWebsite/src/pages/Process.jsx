@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Hero from "../components/process/HeroProcess";
 import Footer from "../components/Footer";
 import Success from "../components/process/Success";
+import Steps from "../components/process/Steps";
 
 const Process = () => {
   return (
@@ -11,6 +12,7 @@ const Process = () => {
         <Header />
       </div>
       <Hero />
+      <Steps />
       <Success />
       <Footer />
     </div>
