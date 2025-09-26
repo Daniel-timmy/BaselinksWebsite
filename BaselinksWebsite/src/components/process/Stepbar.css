@@ -66,28 +66,3 @@
 .connector.active {
   background-color: #338585;
 }
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  margin-left: 250px;
-  margin-top: 50px;
-}
-
-button {
-  padding: 20px 30px;
-  justify-content: center;
-  background-color: #264b56;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 0 5px;
-}
-
-button:disabled {
-  background-color: #a9a9a9;
-  cursor: not-allowed;
-}
