@@ -44,6 +44,10 @@ import serve1 from "./assets/serve1.png";
 import serve2 from "./assets/serve2.png";
 import serve3 from "./assets/serve3.png";
 import serve4 from "./assets/serve4.png";
+import team1 from "./assets/team1.jpg";
+import team2 from "./assets/team2.jpg";
+import team3 from "./assets/team3.jpg";
+import team4 from "./assets/team4.jpg";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -67,6 +71,10 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const TEAM1 = team1;
+export const TEAM2 = team2;
+export const TEAM3 = team3;
+export const TEAM4 = team4;
 export const SERVE1 = serve1;
 export const SERVE2 = serve2;
 export const SERVE3 = serve3;

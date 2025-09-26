@@ -5,6 +5,7 @@ import Approach from "../components/whoweare/Approach";
 import Story from "../components/whoweare/Story";
 import Footer from "../components/Footer";
 import WhoWeServe from "../components/whoweare/WhoWeServe";
+import Team from "../components/whoweare/Team";
 
 const WhoWeAre = () => {
   return (
@@ -16,6 +17,7 @@ const WhoWeAre = () => {
       <Story />
       <Approach />
       <WhoWeServe />
+      <Team />
       <Footer />
     </div>
   );
