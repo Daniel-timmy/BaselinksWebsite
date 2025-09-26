@@ -110,7 +110,7 @@ const Testimonials = () => {
             return (
               <div
                 key={tIndex}
-                className={`absolute left-1/2 h-120 sm:h-96.5  ${testimonial.color} text-left w-100  sm:w-198 sm:p-10 py-10 px-4 space-y-10 rounded-[54px] shadow-[0_-6px_10px_rgba(0,0,0,0.2)]`}
+                className={`absolute left-1/2 h-120 max-w-[100vh] sm:h-96.5  ${testimonial.color} text-left w-100  sm:w-198 sm:p-10 py-10 px-4 space-y-10 rounded-[54px] shadow-[0_-6px_10px_rgba(0,0,0,0.2)]`}
                 style={cardStyle}
               >
                 <svg

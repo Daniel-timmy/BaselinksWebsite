@@ -63,6 +63,7 @@ const Principles = () => {
           </p>
         </div>
       </div>
+
       <div className=" max-lg:hidden space-y-20  grid grid-cols-1 items-center  justify-items-center sm:grid-cols-2 lg:grid-cols-3 sm:gap-10 sm:space-y-5 ">
         <div className="group relative space-y-4 rounded-3xl pb-10 px-6 border-2 border-border-color text-center bg-story w-82 h-82.5 sm:w-100 flex flex-col items-center justify-center max-sm:mt-10">
           <div className="bg-principle lg:opacity-40 lg:group-hover:opacity-100 transition-all ease-in-out duration-600 lg:-top-8 group-hover:-top-15 rounded-full absolute -top-15 size-28 flex items-center justify-center">

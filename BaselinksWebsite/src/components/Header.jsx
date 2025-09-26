@@ -31,7 +31,7 @@ const Header = () => {
             Our Process
           </Link>
           <Link
-            to="#"
+            to="/process"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
             Case Studies
@@ -74,7 +74,7 @@ const Header = () => {
           >
             What We Do
           </Link>
-          <Link to="#" className="text-gray-800 hover:text-gray-600 p-4">
+          <Link to="/process" className="text-gray-800 hover:text-gray-600 p-4">
             Our Process
           </Link>
           <Link to="#" className="text-gray-800 hover:text-gray-600 p-4">
