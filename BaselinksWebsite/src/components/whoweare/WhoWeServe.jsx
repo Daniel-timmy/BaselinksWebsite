@@ -4,7 +4,7 @@ import { BGSERVE, SERVE1, SERVE2, SERVE3, SERVE4 } from "../../constants";
 const WhoWeServe = () => {
   return (
     <div className="space-y-10 w-screen lg:px-4 mt-40 flex flex-col items-center">
-      <h2 className="font-trajan font-bold text-[32px]/10 sm:text-5xl/15 lg:text-6xl/20">
+      <h2 className="text-black font-trajan font-bold text-[32px]/10 sm:text-5xl/15 lg:text-6xl/20">
         Who We <span className="text-baselinks-teal">Serve</span>{" "}
       </h2>
       <div className="xl:w-fit max-lg:flex max-lg:flex-col justify-center lg:grid lg:grid-cols-2 max-lg:space-y-6 gap-6 items-center  ">
