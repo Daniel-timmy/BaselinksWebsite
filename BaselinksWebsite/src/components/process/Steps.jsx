@@ -17,15 +17,28 @@ const Stepbar = ({ setCurrentStep, currentStep }) => {
       <div className="progress-bar">
         {steps.map((step, index) => (
           <div key={index} className="step-container">
-            <div className={`step ${index <= currentStep ? "active" : ""}`}>
-              <div className="step-number">
-                {index < currentStep ? "✔" : index + 1}
+            <div
+              className={`step-outer size-13 sm:size-21 lg:size-37.5 shadow-2xl border-0.5 border-[#E8E8E8] 
+                ${index <= currentStep ? "bg-[#cce0e0]" : "bg-[#fffefe]"}`}
+            >
+              <div
+                className={`step size-8 sm:size-13.5 lg:size-29.5 ${
+                  index <= currentStep ? "active" : ""
+                }`}
+              >
+                <div
+                  className={`step-number font-trajan ${
+                    index <= currentStep ? "text-[#338585]" : "text-[#8D8D8D]"
+                  }`}
+                >
+                  {index + 1}
+                </div>
+                <div className="label"></div>
               </div>
-              <div className="label"></div>
             </div>
             {index < steps.length - 1 && (
               <div
-                className={`connector h-40 sm:h-100 lg:h-170 ${
+                className={`connector h-51.5 sm:h-100 lg:h-166 w-1 sm:w-2 ${
                   index < currentStep ? "active" : ""
                 }`}
               ></div>
@@ -77,12 +90,12 @@ const Steps = () => {
   }, [stepRefs]);
 
   return (
-    <div className="px-4 lg:px-6 mt-40 w-screen flex justify-between ">
-      <div className=" h-screen w-1/4 lg:w-1/3 ">
+    <div className="px-4 lg:px-6 mt-40 w-screen flex justify-between sm:gap-2 ">
+      <div className=" h-screen w-1/4 lg:w-1/3 sm:pt-3 b">
         <Stepbar setCurrentStep={setCurrentStep} currentStep={currentStep} />
       </div>
 
-      <div className="flex flex-col text-left sm:space-y-15 space-y-10">
+      <div className="flex flex-col text-left sm:space-y-15 space-y-8">
         <div ref={stepRefs[0]} className="lg:space-y-6 overflow-hidden">
           <h3 className="text-xl/15 sm:text-3xl/15 lg:text-5xl/20 px-4 font-trajan text-hero-text">
             Discover
@@ -96,7 +109,6 @@ const Steps = () => {
             <div className="absolute inset-0 h-full bg-[#EBEBD6] opacity-0  lg:opacity-20 lg:group-hover:opacity-0 transition-opacity duration-300 z-0"></div>
 
             <div className="p-6 w-76.5 lg:w-134.5 bottom-0 bg-inner-card rounded-[7px] lg:rounded-2xl text-white lg:opacity-0 lg:group-hover:opacity-100 lg:translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
-              {/* <div className="p-6 bg-inner-card rounded-[7px] lg:rounded-2xl text-white w-full"> */}
               <p className="text-[12px] lg:text-xl/6 font-medium">
                 We dive deep into your goals, audience, and challenges,
                 uncovering your brand’s unique story through insightful
@@ -113,7 +125,7 @@ const Steps = () => {
             style={{
               backgroundImage: `url(${STEP2})`,
             }}
-            className="group flex flex-col max-sm:items-center max-sm:justify-center sm:justify-end bg-cover bg-no-repeat rounded-xl sm:rounded-[32px] w-full h-33.5 sm:w-160.5 sm:h-76.5 lg:w-281 lg:h-134.5 p-4"
+            className="relative group flex flex-col max-sm:items-center max-sm:justify-center sm:justify-end bg-cover bg-no-repeat rounded-xl sm:rounded-[32px] w-full h-33.5 sm:w-160.5 sm:h-76.5 lg:w-281 lg:h-134.5 p-4"
           >
             <div className="absolute inset-0 h-full bg-[#EBEBD6] opacity-0  lg:opacity-20 lg:group-hover:opacity-0 transition-opacity duration-300 z-0"></div>
 
@@ -134,9 +146,9 @@ const Steps = () => {
             style={{
               backgroundImage: `url(${STEP3})`,
             }}
-            className="group flex flex-col max-sm:items-center max-sm:justify-center sm:justify-end bg-cover bg-no-repeat rounded-xl sm:rounded-[32px] w-full h-33.5 sm:w-160.5 sm:h-76.5 lg:w-281 lg:h-134.5 p-4"
+            className="relative group flex flex-col max-sm:items-center max-sm:justify-center sm:justify-end bg-cover bg-no-repeat rounded-xl sm:rounded-[32px] w-full h-33.5 sm:w-160.5 sm:h-76.5 lg:w-281 lg:h-134.5 p-4"
           >
-            <div className="absolute inset-0 h-full bg-[#EBEBD6] opacity-0  lg:opacity-20 lg:group-hover:opacity-0 transition-opacity duration-300 z-0  lg:pointer-events-none lg:group-hover:pointer-events-auto"></div>
+            <div className="absolute inset-0 h-full bg-[#EBEBD6] opacity-0  lg:opacity-20 lg:group-hover:opacity-0 transition-opacity duration-300 z-0"></div>
 
             <div className="p-6 w-76.5 lg:w-134.5 bottom-0 bg-inner-card rounded-[7px] lg:rounded-2xl text-white lg:opacity-0 lg:group-hover:opacity-100 lg:translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
               <p className="text-[12px] lg:text-xl/6 font-medium">
@@ -155,7 +167,7 @@ const Steps = () => {
             style={{
               backgroundImage: `url(${STEP4})`,
             }}
-            className=" group flex flex-col max-sm:items-center max-sm:justify-center sm:justify-end bg-cover bg-no-repeat rounded-xl sm:rounded-[32px] w-full h-33.5 sm:w-160.5 sm:h-76.5 lg:w-281 lg:h-134.5 p-4"
+            className="relative group flex flex-col max-sm:items-center max-sm:justify-center sm:justify-end bg-cover bg-no-repeat rounded-xl sm:rounded-[32px] w-full h-33.5 sm:w-160.5 sm:h-76.5 lg:w-281 lg:h-134.5 p-4"
           >
             <div className="absolute inset-0 h-full bg-[#EBEBD6] opacity-0  lg:opacity-20 lg:group-hover:opacity-0 transition-opacity duration-300 z-0"></div>
 

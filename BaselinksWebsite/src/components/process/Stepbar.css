@@ -19,10 +19,16 @@
   align-items: center;
 }
 .step {
-  color: white;
-  width: 40px;
-  height: 40px;
-  background-color: #a9a9a9;
+  color: #8d8d8d;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.step-outer {
+  /* background-color: ; */
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -31,14 +37,15 @@
 }
 
 .step.active {
-  background-color: #264b56;
+  background-color: #e8e8e8;
   transform: scale(1.1);
+  color: #338585;
 }
 
 .step-number {
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  /* color: #8d8d8d; */
   margin-left: -18px;
 }
 .label {
@@ -54,10 +61,10 @@
   flex-grow: 1;
   transition: background-color 0.5s ease;
   background-color: #a9a9a9;
-  width: 8px;
+  /* width: 8px; */
 }
 .connector.active {
-  background-color: #264b56;
+  background-color: #338585;
 }
 
 .buttons {
