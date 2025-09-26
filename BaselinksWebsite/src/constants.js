@@ -52,6 +52,8 @@ import cube from "./assets/partner.png";
 import rotating from "./assets/rotating.png";
 import gear from "./assets/gear.gif";
 import mission from "./assets/mission.gif";
+import vision from "./assets/vision.gif";
+import purpose from "./assets/purpose.gif";
 
 export const CAROUSEL_IMAGES = [
   CAROUSEL1,
@@ -75,6 +77,8 @@ export const PARTNER_LOGOS = [
   partner6,
 ];
 
+export const VISION = vision;
+export const PURPOSE = purpose;
 export const MISSION = mission;
 export const GEAR = gear;
 export const ROT = rotating;

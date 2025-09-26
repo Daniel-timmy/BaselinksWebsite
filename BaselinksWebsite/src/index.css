@@ -60,6 +60,7 @@ h1 {
   --color-story: #faf5eb;
   --color-border-color: #ebebd6;
   --color-principle: #e0c285;
+  --color-card-principle: #f4f4f4;
 }
 
 @layer base {
