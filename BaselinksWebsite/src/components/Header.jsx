@@ -25,13 +25,13 @@ const Header = () => {
             What We Do
           </Link>
           <Link
-            to="#"
+            to="/process"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
             Our Process
           </Link>
           <Link
-            to="/process"
+            to="#"
             className="hover:text-baselinks-yellow text-gray-800 mx-2"
           >
             Case Studies
