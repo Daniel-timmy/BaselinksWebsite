@@ -38,7 +38,7 @@ const Stepbar = ({ setCurrentStep, currentStep }) => {
             </div>
             {index < steps.length - 1 && (
               <div
-                className={`connector h-51.5 sm:h-100 lg:h-166 w-1 sm:w-2 ${
+                className={`connector h-50 sm:h-87 lg:h-133 w-1 sm:w-2 ${
                   index < currentStep ? "active" : ""
                 }`}
               ></div>
