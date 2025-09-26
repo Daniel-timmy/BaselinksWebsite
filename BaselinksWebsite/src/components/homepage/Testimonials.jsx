@@ -74,10 +74,10 @@ const Testimonials = () => {
         }}
         className="relative bg-no-repeat bg-contain bg-center w-full rounded-3xl p-6 flex flex-col justify-between items-center space-y-10"
       >
-        {/* <div
-          className="absolute inset-0 opacity-10 h-8/10 bg-black/100  
+        <div
+          className="absolute inset-0 opacity-95 h-full bg-[#fbfbfb] 
         "
-        /> */}
+        />
         {/* Stack container */}
         <div
           className="relative w-full overflow-visible "
@@ -159,7 +159,7 @@ const Testimonials = () => {
             );
           })}
         </div>
-        <div className="flex space-x-14 justify-center items-center">
+        <div className="flex space-x-14 justify-center items-center z-10">
           <button
             onClick={handlePrev}
             className="h-12 w-22 rounded-3xl cursor-pointer hover:bg-baselinks-teal/15 border-baselinks-teal border-2 flex justify-center items-center"
