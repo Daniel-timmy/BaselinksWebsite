@@ -3,7 +3,7 @@ import { ROT, GEAR, MISSION, VISION, PURPOSE } from "../../constants";
 
 const Principles = () => {
   return (
-    <div className="flex flex-col items-center w-screen py-10 bg-card-principle">
+    <div className="flex flex-col mt-40 items-center w-screen py-10 bg-card-principle">
       <div className="lg:hidden space-y-20  grid grid-cols-1 items-center  justify-items-center sm:grid-cols-2 lg:grid-cols-3 sm:gap-10 sm:space-y-5 ">
         <div className="flex relative sm:col-span-2 lg:col-span-3 justify-center items-center size-84 sm:size-111 text-black">
           <img src={ROT} className="animate-spin" />
