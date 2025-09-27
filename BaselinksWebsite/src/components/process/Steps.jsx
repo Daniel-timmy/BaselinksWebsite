@@ -91,11 +91,11 @@ const Steps = () => {
 
   return (
     <div className="px-4 lg:px-6 mt-40 w-screen flex justify-between sm:gap-2 ">
-      <div className=" h-screen w-1/4 lg:w-1/3 sm:pt-3 b">
+      <div className=" h-fit w-1/6 lg:w-1/3 sm:pt-3">
         <Stepbar setCurrentStep={setCurrentStep} currentStep={currentStep} />
       </div>
 
-      <div className="flex flex-col text-left sm:space-y-15 space-y-8">
+      <div className="flex flex-col text-left sm:space-y-15 space-y-8 max-sm:w-5/6 ">
         <div ref={stepRefs[0]} className="lg:space-y-6 overflow-hidden">
           <h3 className="text-xl/15 sm:text-3xl/15 lg:text-5xl/20 px-4 font-trajan text-hero-text">
             Discover
