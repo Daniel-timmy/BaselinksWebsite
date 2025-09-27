@@ -5,12 +5,12 @@ const Principles = () => {
   return (
     <div className="flex flex-col items-center w-screen py-10 bg-card-principle">
       <div className="lg:hidden space-y-20  grid grid-cols-1 items-center  justify-items-center sm:grid-cols-2 lg:grid-cols-3 sm:gap-10 sm:space-y-5 ">
-        <div className="flex relative sm:col-span-2 lg:col-span-3 justify-center items-center size-86 sm:size-111 text-black">
+        <div className="flex relative sm:col-span-2 lg:col-span-3 justify-center items-center size-84 sm:size-111 text-black">
           <img src={ROT} className="animate-spin" />
           <div className="">
             <img
               src={GEAR}
-              className="absolute border-2 border-border-color left-1/2 top-1/2 size-48 sm:size-62.2 object-cover rounded-full -translate-x-1/2 -translate-y-1/2 transform"
+              className="absolute border-2 border-border-color left-1/2 top-1/2 size-47 sm:size-62.2 object-cover rounded-full -translate-x-1/2 -translate-y-1/2 transform"
             />
           </div>
         </div>

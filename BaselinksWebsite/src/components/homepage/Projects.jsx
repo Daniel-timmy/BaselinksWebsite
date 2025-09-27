@@ -69,11 +69,11 @@ const Projects = () => {
                 </button>
               ))}
             </div>
-            <div className="space-y-3 p-3 w-full bg-project-banner text-left rounded-xl h-21 text-hero-text lg:opacity-0 lg:group-hover:opacity-100 lg:translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
-              <h6 className="font-trajan font-bold text-2xl/7.5">
+            <div className="space-y-2 sm:space-y-3 p-3 w-full bg-project-banner text-left rounded-xl h-21 text-hero-text lg:opacity-0 lg:group-hover:opacity-100 lg:translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
+              <h6 className="font-trajan font-bold text-xl/7 sm:text-2xl/7.5">
                 {project.title}{" "}
               </h6>
-              <p className="text-lg/5">{project.description} </p>
+              <p className="sm:text-lg/5">{project.description} </p>
             </div>
           </div>
         ))}
