@@ -173,9 +173,9 @@ const Steps = () => {
 
             <div className="p-6 w-76.5 lg:w-134.5 bottom-0 bg-inner-card rounded-[7px] lg:rounded-2xl text-white lg:opacity-0 lg:group-hover:opacity-100 lg:translate-y-full lg:group-hover:translate-y-0 transition duration-300 ease-in lg:pointer-events-none lg:group-hover:pointer-events-auto">
               <p className="text-[12px] lg:text-xl/6 font-medium">
-                We dive deep into your goals, audience, and challenges,
-                uncovering your brand’s unique story through insightful
-                consultations and research
+                We hand over a polished brand package logos, guidelines, and
+                assets ensuring seamless integration and ongoing support to
+                maximize impact. Ignite your brand’s potential with Baselinks.
               </p>
             </div>
           </div>
