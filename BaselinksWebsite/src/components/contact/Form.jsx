@@ -29,9 +29,9 @@ const Form = () => {
             info@baselinksconsult.com.
           </p>
         </div>
-        <div className="bg-white p-2 text-black text-left w-full text-xs rounded-xl lg:p-11.5">
-          <form className="space-y-4">
-            <div className="space-y-2 flex flex-col">
+        <div className="bg-white p-2 text-black text-left w-full text-xs rounded-xl lg:rounded-3xl lg:p-11.5">
+          <form className="space-y-4 lg:space-y-6">
+            <div className="space-y-2 lg:space-y-4 flex flex-col">
               <label className="font-lexend text-[10px] lg:text-[15px]">
                 Name
               </label>
@@ -40,7 +40,7 @@ const Form = () => {
                 className="px-1 bg-input rounded-lg w-full h-11 lg:h-14 border-1 border-input-border"
               />
             </div>
-            <div className="space-y-2 flex flex-col">
+            <div className="space-y-2 lg:space-y-4 flex flex-col">
               <label className="font-lexend text-[10px] lg:text-[15px]">
                 Email
               </label>
@@ -49,20 +49,21 @@ const Form = () => {
                 className="px-1 bg-input rounded-lg w-full h-11 lg:h-14 border-1 border-input-border"
               />
             </div>
-            <div className="space-y-2 flex flex-col">
+            <div className="space-y-2 lg:space-y-4 flex flex-col">
               <label className="font-lexend text-[10px] lg:text-[15px]">
                 Message
               </label>
-              <input
+              <textarea
                 placeholder="Enter your message"
-                className="px-1 bg-input rounded-lg w-full h-11 lg:h-14 border-1 border-input-border"
+                className="px-1 py-2 bg-input rounded-lg w-full h-20 lg:h-28 border border-input-border resize-y"
+                rows="4"
               />
             </div>
             <div className="flex items-center justify-center gap-4">
-              <button className=" bg-baselinks-teal text-white hover:opacity-70 cursor-pointer w-fit px-6 space-x-3 rounded-3xl font-bold text-md py-2.5 flex items-center gap-0">
+              <button className=" bg-baselinks-teal text-white hover:opacity-70 cursor-pointer w-fit px-6 space-x-3 rounded-3xl font-bold text-xs lg:text-[16px] py-2.5 flex items-center gap-0">
                 Send and Email{" "}
               </button>
-              <button className=" bg-baselinks-teal-light text-baselinks-teal border-1 border-baselinks-teal/70 hover:opacity-70 cursor-pointer w-fit px-6 space-x-3 rounded-3xl font-bold text-md py-2.5 flex items-center gap-2">
+              <button className=" bg-baselinks-teal-light text-baselinks-teal border-1 border-baselinks-teal/70 hover:opacity-70 cursor-pointer w-fit px-6 space-x-3 rounded-3xl font-bold text-xs lg:text-[16px] py-2.5 flex items-center gap-2">
                 <svg
                   className="size-4"
                   viewBox="0 0 19 19"
