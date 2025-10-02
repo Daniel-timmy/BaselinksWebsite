@@ -2,9 +2,9 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="lg:bg-contact rounded-[20px] sm:h-fit lg:max-w-8/10 max-lg:py-4 max-lg:px-2  mt-20 sm:mt-30 flex max-sm:flex-col  max-sm:space-y-6  justify-between items-center gap-4">
+    <div className="lg:bg-contact rounded-[20px] sm:h-fit lg:w-fit max-lg:py-4 max-lg:px-2  mt-20 sm:mt-30 flex max-sm:flex-col  max-sm:space-y-6  justify-between items-center gap-4">
       <div className=" space-y-8 justify-items-start sm:w-full lg:pl-10">
-        <h2 className="font-medium text-black text-left text-2xl sm:text-4xl lg:text-5xl/6">
+        <h2 className="font-medium text-black text-left text-2xl sm:text-4xl/7 lg:text-5xl/8">
           Get in touch with us
         </h2>
         <div className="rounded-xl flex space-x-2 bg-white  text-black p-1 lg:p-3 items-center">
@@ -96,7 +96,7 @@ const Form = () => {
       </div>
       <div className="w-full  justify-items-end">
         <iframe
-          className="w-full sm:w-96 h-58  sm:h-120 lg:h-220 sm:rounded-r-3xl"
+          className="w-full sm:w-96 h-58 lg:w-172  sm:h-120 lg:h-220 sm:rounded-r-3xl"
           src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d126857.48439694502!2d3.4919995!3d6.4840989!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8a1aa01d8b1ca665%3A0xd433654f7c6cbdc4!2sPalm%20City%20Estate%2C%206a%20d-sha%2C%20Lekki%2C%20Addo%20Rd%2C%20Ajah%2C%20Lagos%20101245!3m2!1d6.4841055!2d3.5744013999999997!5e0!3m2!1sen!2sng!4v1750688595791!5m2!1sen!2sng"
           allowfullscreen=""
           loading="lazy"
