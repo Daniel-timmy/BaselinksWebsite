@@ -2,8 +2,8 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="lg:bg-contact rounded-[20px] py-4 px-2">
-      <div className="space-y-8">
+    <div className="lg:bg-contact rounded-[20px] sm:h-fit py-4 px-2 mt-20 sm:mt-30 flex max-sm:flex-col  max-sm:space-y-6  justify-between gap-6">
+      <div className=" space-y-8 justify-items-start sm:w-full">
         <h2 className="font-medium text-black text-left text-2xl">
           Get in touch with us
         </h2>
@@ -29,7 +29,7 @@ const Form = () => {
             info@baselinksconsult.com.
           </p>
         </div>
-        <div className="bg-white p-2 text-black text-left text-xs rounded-xl">
+        <div className="bg-white p-2 text-black text-left w-full text-xs rounded-xl">
           <form className="space-y-4">
             <div className="space-y-2 flex flex-col">
               <label className="font-lexend text-[10px]">Name</label>
@@ -52,11 +52,51 @@ const Form = () => {
                 className="px-1 bg-input rounded-lg w-full h-11 border-1 border-input-border"
               />
             </div>
-            <button>Send</button>
+            <div className="flex items-center justify-center gap-4">
+              <button className=" bg-baselinks-teal text-white hover:opacity-70 cursor-pointer w-fit px-6 space-x-3 rounded-3xl font-bold text-md py-2.5 flex items-center gap-0">
+                Send and Email{" "}
+              </button>
+              <button className=" bg-baselinks-teal-light text-baselinks-teal border-1 border-baselinks-teal/70 hover:opacity-70 cursor-pointer w-fit px-6 space-x-3 rounded-3xl font-bold text-md py-2.5 flex items-center gap-2">
+                <svg
+                  className="size-4"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M2.36058 14.2794C1.48099 12.9197 0.969727 11.2988 0.969727 9.55978C0.969727 4.75592 4.87018 0.855469 9.67404 0.855469C14.4779 0.855469 18.3784 4.75592 18.3784 9.55978C18.3784 14.3637 14.4779 18.2641 9.67404 18.2641C8.04588 18.2641 6.52216 17.8161 5.21835 17.0373L0.969727 18.4528L2.36058 14.2794Z"
+                    fill="#F3F3F3"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.98935 13.5983C3.17756 12.4585 2.7002 11.0649 2.7002 9.56039C2.7002 5.71125 5.8255 2.58594 9.67464 2.58594C13.5238 2.58594 16.6491 5.71125 16.6491 9.56039C16.6491 13.4095 13.5238 16.5339 9.67464 16.5339C8.21782 16.5339 6.86544 16.0868 5.74579 15.3217L3.1235 16.1958L3.98935 13.5983Z"
+                    fill="#00A82D"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.57899 11.3699C6.54913 10.111 5.86195 8.56983 5.64663 6.8986C5.58891 6.43315 5.74375 5.96587 6.06902 5.62777C6.39428 5.28968 6.85516 5.11651 7.32244 5.15591L7.36734 5.16049C7.36734 5.16049 7.88135 5.29792 8.16263 5.37397C8.27442 5.40421 8.36329 5.48759 8.40086 5.59662C8.5273 5.97228 8.826 6.85462 8.9671 7.26968C9.01291 7.40437 8.97076 7.55372 8.86265 7.64534C8.64916 7.82492 8.29641 8.12179 8.07651 8.30779C7.95831 8.40766 7.92075 8.5735 7.98488 8.71368C8.24052 9.27076 8.5667 9.79118 8.95335 10.2621C9.351 10.7221 9.80821 11.1316 10.314 11.478C10.4423 11.565 10.6118 11.5559 10.73 11.456C10.9508 11.2709 11.3035 10.9741 11.5161 10.7945C11.6251 10.7028 11.779 10.6873 11.9046 10.7551C12.2894 10.964 13.1085 11.4074 13.4567 11.5962C13.5584 11.6512 13.6262 11.7538 13.6363 11.8683C13.6628 12.1588 13.7123 12.6883 13.7123 12.6883L13.7087 12.7332C13.6683 13.2005 13.42 13.6257 13.0316 13.8886C12.6431 14.1525 12.1565 14.2258 11.7076 14.0902C10.084 13.5908 8.67207 12.6416 7.60373 11.3992L7.57899 11.3699Z"
+                    fill="#F3F3F3"
+                  />
+                </svg>
+                WhatsApp Us{" "}
+              </button>
+            </div>
           </form>
         </div>
       </div>
-      <div></div>
+      <div className="w-full  justify-items-end">
+        <iframe
+          className="w-full sm:w-96 h-58  sm:h-120 sm:rounded-r-3xl"
+          src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d126857.48439694502!2d3.4919995!3d6.4840989!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8a1aa01d8b1ca665%3A0xd433654f7c6cbdc4!2sPalm%20City%20Estate%2C%206a%20d-sha%2C%20Lekki%2C%20Addo%20Rd%2C%20Ajah%2C%20Lagos%20101245!3m2!1d6.4841055!2d3.5744013999999997!5e0!3m2!1sen!2sng!4v1750688595791!5m2!1sen!2sng"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </div>
   );
 };
