@@ -45,9 +45,12 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex items-center space-x-6">
-          <button className="hidden hover:opacity-70 md:block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5">
+          <Link
+            to="/contact"
+            className="hidden hover:opacity-70 md:block bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-md py-2.5"
+          >
             Get in Touch
-          </button>
+          </Link>
           <svg
             className="lg:hidden cursor-pointer"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -168,9 +171,12 @@ const Header = () => {
           )}
         </div>
         <div className="mt-25 justify-end flex pb-6 px-4">
-          <button className="w-fit  bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-[14px] py-2.5">
+          <Link
+            to="/contact"
+            className="w-fit  bg-baselinks-teal px-8 space-x-3 rounded-3xl font-bold text-[14px] py-2.5"
+          >
             Get in Touch
-          </button>
+          </Link>
         </div>
       </div>
     </div>

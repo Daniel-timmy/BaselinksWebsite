@@ -2,12 +2,12 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="lg:bg-contact rounded-[20px] sm:h-fit lg:w-fit max-lg:py-4 max-lg:px-2  mt-20 sm:mt-30 flex max-sm:flex-col  max-sm:space-y-6  justify-between items-center gap-4">
-      <div className=" space-y-8 justify-items-start sm:w-full lg:pl-10">
+    <div className="lg:bg-contact rounded-[20px] sm:h-fit lg:w-344 max-lg:py-4 max-lg:px-2  mt-20 sm:mt-30 flex max-sm:flex-col  max-sm:space-y-6  justify-between items-center gap-4">
+      <div className=" space-y-8 justify-items-start sm:w-full lg:pl-10 lg:space-y-10">
         <h2 className="font-medium text-black text-left text-2xl sm:text-4xl/7 lg:text-5xl/8">
           Get in touch with us
         </h2>
-        <div className="rounded-xl flex space-x-2 bg-white  text-black p-1 lg:p-3 items-center">
+        <div className="rounded-xl lg:rounded-3xl flex space-x-2 bg-white  text-black p-1 lg:py-4 lg:px-11.5 items-center">
           <div className="bg-baselinks-teal-light w-fit h-fit p-3 rounded-full">
             <svg
               className="size-7"
@@ -29,7 +29,7 @@ const Form = () => {
             info@baselinksconsult.com.
           </p>
         </div>
-        <div className="bg-white p-2 text-black text-left w-full text-xs rounded-xl">
+        <div className="bg-white p-2 text-black text-left w-full text-xs rounded-xl lg:p-11.5">
           <form className="space-y-4">
             <div className="space-y-2 flex flex-col">
               <label className="font-lexend text-[10px] lg:text-[15px]">
