@@ -3,7 +3,7 @@ import { MESH } from "../../constants";
 
 const Achievements = () => {
   return (
-    <div className="flex max-lg:flex-col lg:p-8 p-4 lg:max-w-screen lg:justify-between lg:h-152 lg:min-w-5xl space-y-25">
+    <div className="flex max-lg:flex-col lg:p-8 p-4 lg:max-w-[1920px] lg:justify-between lg:h-152 lg:min-w-5xl space-y-25">
       <div className="flex flex-col items-start justify-between h-full lg:w-140 space-y-8 sm:space-y-6 ">
         <h5 className="font-trajan text-black text-left sm:font-bold text-5xl/15 lg:text-6xl/20 ">
           Our Achieveme
