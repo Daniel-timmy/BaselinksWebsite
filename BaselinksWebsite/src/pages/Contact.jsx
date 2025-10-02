@@ -9,7 +9,9 @@ const Contact = () => {
       <div className="fixed w-full z-50 top-0">
         <Header />
       </div>{" "}
-      <Form />
+      <div className="justify-center flex w-screen">
+        <Form />
+      </div>
       <Footer />
     </div>
   );
